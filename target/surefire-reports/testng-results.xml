@@ -2,80 +2,80 @@
 <testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="com.qa.greenkart.test.TestHomePage" duration-ms="84259" started-at="2020-01-01T07:39:33Z" finished-at="2020-01-01T07:40:57Z">
+  <suite name="com.qa.greenkart.test.TestHomePage" duration-ms="257082" started-at="2020-01-01T07:52:12Z" finished-at="2020-01-01T07:56:29Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="84259" started-at="2020-01-01T07:39:33Z" finished-at="2020-01-01T07:40:57Z">
+    <test name="Command line test" duration-ms="257082" started-at="2020-01-01T07:52:12Z" finished-at="2020-01-01T07:56:29Z">
       <class name="com.qa.greenkart.test.TestHomePage">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.greenkart.test.TestHomePage@3c09711b]" name="setUp" is-config="true" duration-ms="21897" started-at="2020-01-01T13:09:33Z" finished-at="2020-01-01T13:09:55Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.greenkart.test.TestHomePage@3c09711b]" name="setUp" is-config="true" duration-ms="54753" started-at="2020-01-01T13:22:12Z" finished-at="2020-01-01T13:23:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="CartIconVisiblity()[pri:0, instance:com.qa.greenkart.test.TestHomePage@3c09711b]" name="CartIconVisiblity" duration-ms="118" started-at="2020-01-01T13:09:55Z" finished-at="2020-01-01T13:09:55Z">
+        <test-method status="PASS" signature="CartIconVisiblity()[pri:0, instance:com.qa.greenkart.test.TestHomePage@3c09711b]" name="CartIconVisiblity" duration-ms="137" started-at="2020-01-01T13:23:07Z" finished-at="2020-01-01T13:23:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CartIconVisiblity -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.greenkart.test.TestHomePage@3c09711b]" name="tearDown" is-config="true" duration-ms="866" started-at="2020-01-01T13:09:55Z" finished-at="2020-01-01T13:09:55Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.greenkart.test.TestHomePage@3c09711b]" name="tearDown" is-config="true" duration-ms="1074" started-at="2020-01-01T13:23:07Z" finished-at="2020-01-01T13:23:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.greenkart.test.TestHomePage@3c09711b]" name="setUp" is-config="true" duration-ms="10452" started-at="2020-01-01T13:09:55Z" finished-at="2020-01-01T13:10:06Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.greenkart.test.TestHomePage@3c09711b]" name="setUp" is-config="true" duration-ms="35456" started-at="2020-01-01T13:23:08Z" finished-at="2020-01-01T13:23:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="DeCrementButtonVisiblity()[pri:0, instance:com.qa.greenkart.test.TestHomePage@3c09711b]" name="DeCrementButtonVisiblity" duration-ms="75" started-at="2020-01-01T13:10:06Z" finished-at="2020-01-01T13:10:06Z">
+        <test-method status="PASS" signature="DeCrementButtonVisiblity()[pri:0, instance:com.qa.greenkart.test.TestHomePage@3c09711b]" name="DeCrementButtonVisiblity" duration-ms="89" started-at="2020-01-01T13:23:44Z" finished-at="2020-01-01T13:23:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DeCrementButtonVisiblity -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.greenkart.test.TestHomePage@3c09711b]" name="tearDown" is-config="true" duration-ms="821" started-at="2020-01-01T13:10:06Z" finished-at="2020-01-01T13:10:07Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.greenkart.test.TestHomePage@3c09711b]" name="tearDown" is-config="true" duration-ms="972" started-at="2020-01-01T13:23:44Z" finished-at="2020-01-01T13:23:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.greenkart.test.TestHomePage@3c09711b]" name="setUp" is-config="true" duration-ms="10069" started-at="2020-01-01T13:10:07Z" finished-at="2020-01-01T13:10:17Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.greenkart.test.TestHomePage@3c09711b]" name="setUp" is-config="true" duration-ms="33851" started-at="2020-01-01T13:23:45Z" finished-at="2020-01-01T13:24:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="InCrementButtonVisiblity()[pri:0, instance:com.qa.greenkart.test.TestHomePage@3c09711b]" name="InCrementButtonVisiblity" duration-ms="66" started-at="2020-01-01T13:10:17Z" finished-at="2020-01-01T13:10:17Z">
+        <test-method status="PASS" signature="InCrementButtonVisiblity()[pri:0, instance:com.qa.greenkart.test.TestHomePage@3c09711b]" name="InCrementButtonVisiblity" duration-ms="101" started-at="2020-01-01T13:24:19Z" finished-at="2020-01-01T13:24:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- InCrementButtonVisiblity -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.greenkart.test.TestHomePage@3c09711b]" name="tearDown" is-config="true" duration-ms="914" started-at="2020-01-01T13:10:17Z" finished-at="2020-01-01T13:10:18Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.greenkart.test.TestHomePage@3c09711b]" name="tearDown" is-config="true" duration-ms="945" started-at="2020-01-01T13:24:19Z" finished-at="2020-01-01T13:24:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.greenkart.test.TestHomePage@3c09711b]" name="setUp" is-config="true" duration-ms="10792" started-at="2020-01-01T13:10:18Z" finished-at="2020-01-01T13:10:29Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.greenkart.test.TestHomePage@3c09711b]" name="setUp" is-config="true" duration-ms="40553" started-at="2020-01-01T13:24:20Z" finished-at="2020-01-01T13:25:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="addToCartButtonVisiblity()[pri:0, instance:com.qa.greenkart.test.TestHomePage@3c09711b]" name="addToCartButtonVisiblity" duration-ms="58" started-at="2020-01-01T13:10:29Z" finished-at="2020-01-01T13:10:29Z">
+        <test-method status="PASS" signature="addToCartButtonVisiblity()[pri:0, instance:com.qa.greenkart.test.TestHomePage@3c09711b]" name="addToCartButtonVisiblity" duration-ms="67" started-at="2020-01-01T13:25:00Z" finished-at="2020-01-01T13:25:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addToCartButtonVisiblity -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.greenkart.test.TestHomePage@3c09711b]" name="tearDown" is-config="true" duration-ms="991" started-at="2020-01-01T13:10:29Z" finished-at="2020-01-01T13:10:30Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.greenkart.test.TestHomePage@3c09711b]" name="tearDown" is-config="true" duration-ms="1440" started-at="2020-01-01T13:25:00Z" finished-at="2020-01-01T13:25:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.greenkart.test.TestHomePage@3c09711b]" name="setUp" is-config="true" duration-ms="12600" started-at="2020-01-01T13:10:30Z" finished-at="2020-01-01T13:10:42Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.greenkart.test.TestHomePage@3c09711b]" name="setUp" is-config="true" duration-ms="31149" started-at="2020-01-01T13:25:02Z" finished-at="2020-01-01T13:25:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginbuttonvisiblity()[pri:0, instance:com.qa.greenkart.test.TestHomePage@3c09711b]" name="loginbuttonvisiblity" duration-ms="57" started-at="2020-01-01T13:10:42Z" finished-at="2020-01-01T13:10:42Z">
+        <test-method status="PASS" signature="loginbuttonvisiblity()[pri:0, instance:com.qa.greenkart.test.TestHomePage@3c09711b]" name="loginbuttonvisiblity" duration-ms="63" started-at="2020-01-01T13:25:33Z" finished-at="2020-01-01T13:25:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginbuttonvisiblity -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.greenkart.test.TestHomePage@3c09711b]" name="tearDown" is-config="true" duration-ms="995" started-at="2020-01-01T13:10:42Z" finished-at="2020-01-01T13:10:43Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.greenkart.test.TestHomePage@3c09711b]" name="tearDown" is-config="true" duration-ms="887" started-at="2020-01-01T13:25:33Z" finished-at="2020-01-01T13:25:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.greenkart.test.TestHomePage@3c09711b]" name="setUp" is-config="true" duration-ms="12472" started-at="2020-01-01T13:10:43Z" finished-at="2020-01-01T13:10:56Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.greenkart.test.TestHomePage@3c09711b]" name="setUp" is-config="true" duration-ms="54189" started-at="2020-01-01T13:25:34Z" finished-at="2020-01-01T13:26:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="topDealsLinkVisiblity()[pri:0, instance:com.qa.greenkart.test.TestHomePage@3c09711b]" name="topDealsLinkVisiblity" duration-ms="55" started-at="2020-01-01T13:10:56Z" finished-at="2020-01-01T13:10:56Z">
+        <test-method status="PASS" signature="topDealsLinkVisiblity()[pri:0, instance:com.qa.greenkart.test.TestHomePage@3c09711b]" name="topDealsLinkVisiblity" duration-ms="81" started-at="2020-01-01T13:26:28Z" finished-at="2020-01-01T13:26:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- topDealsLinkVisiblity -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.greenkart.test.TestHomePage@3c09711b]" name="tearDown" is-config="true" duration-ms="917" started-at="2020-01-01T13:10:56Z" finished-at="2020-01-01T13:10:57Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.greenkart.test.TestHomePage@3c09711b]" name="tearDown" is-config="true" duration-ms="1232" started-at="2020-01-01T13:26:28Z" finished-at="2020-01-01T13:26:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

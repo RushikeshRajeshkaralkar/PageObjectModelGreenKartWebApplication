@@ -70,6 +70,16 @@ public class TestHomePage extends TestBase {
 		boolean DeCrementButton = home.DecrementButtonIsVisible();
 		assertEquals(true, DeCrementButton);
 	}
+	
+	@Test()
+	public void SearchTextFiledVisiblity() {
+
+		home = new HomePage();
+		boolean SearchTextFiled = home.SearchTextFiled();
+		assertEquals(true, SearchTextFiled);
+	}
+	
+	
 
 	@AfterMethod
 	public void tearDown() {

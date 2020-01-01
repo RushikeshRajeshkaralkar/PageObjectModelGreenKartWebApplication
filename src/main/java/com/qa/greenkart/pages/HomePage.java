@@ -62,5 +62,10 @@ public class HomePage extends TestBase {
 		return DecrementButtons.isDisplayed();
 	}
 	
+	public boolean SearchTextFiled()
+	{
+		return SerachTextFiled.isDisplayed();
+	}
+	
 	
 }
