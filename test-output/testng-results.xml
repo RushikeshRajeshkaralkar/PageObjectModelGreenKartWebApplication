@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="82040" started-at="2020-01-01T07:37:38Z" finished-at="2020-01-01T07:39:00Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="82040" started-at="2020-01-01T07:37:38Z" finished-at="2020-01-01T07:39:00Z">
+      <class name="com.qa.greenkart.test.TestHomePage">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.greenkart.test.TestHomePage@6e1567f1]" name="setUp" is-config="true" duration-ms="28398" started-at="2020-01-01T13:07:38Z" finished-at="2020-01-01T13:08:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="CartIconVisiblity()[pri:0, instance:com.qa.greenkart.test.TestHomePage@6e1567f1]" name="CartIconVisiblity" duration-ms="154" started-at="2020-01-01T13:08:07Z" finished-at="2020-01-01T13:08:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CartIconVisiblity -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.greenkart.test.TestHomePage@6e1567f1]" name="tearDown" is-config="true" duration-ms="857" started-at="2020-01-01T13:08:07Z" finished-at="2020-01-01T13:08:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.greenkart.test.TestHomePage@6e1567f1]" name="setUp" is-config="true" duration-ms="8910" started-at="2020-01-01T13:08:08Z" finished-at="2020-01-01T13:08:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="DeCrementButtonVisiblity()[pri:0, instance:com.qa.greenkart.test.TestHomePage@6e1567f1]" name="DeCrementButtonVisiblity" duration-ms="65" started-at="2020-01-01T13:08:17Z" finished-at="2020-01-01T13:08:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeCrementButtonVisiblity -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.greenkart.test.TestHomePage@6e1567f1]" name="tearDown" is-config="true" duration-ms="836" started-at="2020-01-01T13:08:17Z" finished-at="2020-01-01T13:08:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.greenkart.test.TestHomePage@6e1567f1]" name="setUp" is-config="true" duration-ms="11071" started-at="2020-01-01T13:08:17Z" finished-at="2020-01-01T13:08:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="InCrementButtonVisiblity()[pri:0, instance:com.qa.greenkart.test.TestHomePage@6e1567f1]" name="InCrementButtonVisiblity" duration-ms="63" started-at="2020-01-01T13:08:29Z" finished-at="2020-01-01T13:08:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InCrementButtonVisiblity -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.greenkart.test.TestHomePage@6e1567f1]" name="tearDown" is-config="true" duration-ms="876" started-at="2020-01-01T13:08:29Z" finished-at="2020-01-01T13:08:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.greenkart.test.TestHomePage@6e1567f1]" name="setUp" is-config="true" duration-ms="8139" started-at="2020-01-01T13:08:29Z" finished-at="2020-01-01T13:08:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addToCartButtonVisiblity()[pri:0, instance:com.qa.greenkart.test.TestHomePage@6e1567f1]" name="addToCartButtonVisiblity" duration-ms="61" started-at="2020-01-01T13:08:38Z" finished-at="2020-01-01T13:08:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCartButtonVisiblity -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.greenkart.test.TestHomePage@6e1567f1]" name="tearDown" is-config="true" duration-ms="835" started-at="2020-01-01T13:08:38Z" finished-at="2020-01-01T13:08:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.greenkart.test.TestHomePage@6e1567f1]" name="setUp" is-config="true" duration-ms="9398" started-at="2020-01-01T13:08:38Z" finished-at="2020-01-01T13:08:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginbuttonvisiblity()[pri:0, instance:com.qa.greenkart.test.TestHomePage@6e1567f1]" name="loginbuttonvisiblity" duration-ms="79" started-at="2020-01-01T13:08:48Z" finished-at="2020-01-01T13:08:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginbuttonvisiblity -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.greenkart.test.TestHomePage@6e1567f1]" name="tearDown" is-config="true" duration-ms="870" started-at="2020-01-01T13:08:48Z" finished-at="2020-01-01T13:08:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.greenkart.test.TestHomePage@6e1567f1]" name="setUp" is-config="true" duration-ms="10224" started-at="2020-01-01T13:08:49Z" finished-at="2020-01-01T13:08:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="topDealsLinkVisiblity()[pri:0, instance:com.qa.greenkart.test.TestHomePage@6e1567f1]" name="topDealsLinkVisiblity" duration-ms="68" started-at="2020-01-01T13:08:59Z" finished-at="2020-01-01T13:08:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- topDealsLinkVisiblity -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.greenkart.test.TestHomePage@6e1567f1]" name="tearDown" is-config="true" duration-ms="1089" started-at="2020-01-01T13:08:59Z" finished-at="2020-01-01T13:09:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.greenkart.test.TestHomePage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
