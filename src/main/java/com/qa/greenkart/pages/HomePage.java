@@ -1,5 +1,9 @@
 package com.qa.greenkart.pages;
 
+import java.util.Arrays;
+import java.util.List;
+
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -38,6 +42,43 @@ public class HomePage extends TestBase {
 	@FindBy(xpath = "//input[contains(@class,'search-keyword')]")
 	WebElement SerachTextFiled;
 
+	@FindBy(xpath = "//h4[@class='product-name']")
+	WebElement NameOfProduct;
+
+	List<WebElement> listofElements = driver.findElements(By.xpath("//h4[@class='product-name']"));
+
+	List<String> names;
+
+	public void productNames(String...
+		string) {
+
+		for (String productname : string) {
+
+			String[] name = { productname };
+			names = Arrays.asList(name);
+		}
+
+		System.out.println(names);
+		for (int i = 0; i < listofElements.size(); i++) {
+			String[] nameOfProduct = listofElements.get(i).getText().split("-");
+			String UpdateProductName = nameOfProduct[0].trim();
+			 System.out.println(UpdateProductName);
+
+			int j = 0;
+			if (names.contains(UpdateProductName)) {
+				j++;
+				System.out.println(UpdateProductName);
+				driver.findElements(By.xpath("//div[@class='product-action']//button")).get(i).click();
+
+				if (j == names.size()) {
+					break;
+				}
+			}
+
+		}
+
+	}
+
 	public boolean logIsVisble() {
 		return logoGreenKart.isDisplayed();
 	}
@@ -57,15 +98,13 @@ public class HomePage extends TestBase {
 	public boolean incrementButtonIsVisible() {
 		return incrementButtons.isDisplayed();
 	}
-	
+
 	public boolean DecrementButtonIsVisible() {
 		return DecrementButtons.isDisplayed();
 	}
-	
-	public boolean SearchTextFiled()
-	{
+
+	public boolean SearchTextFiled() {
 		return SerachTextFiled.isDisplayed();
 	}
-	
-	
+
 }

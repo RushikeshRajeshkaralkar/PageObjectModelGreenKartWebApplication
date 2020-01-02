@@ -5,8 +5,13 @@
     <classes>
       <class name="com.qa.greenkart.test.TestHomePage">
         <methods>
-          <include name="loginbuttonvisiblity"/>
+          <include name="CartIconVisiblity"/>
+          <include name="addToCartButtonVisiblity"/>
+          <include name="topDealsLinkVisiblity"/>
+          <include name="DeCrementButtonVisiblity"/>
+          <include name="SearchTextFiledVisiblity"/>
           <include name="setUp"/>
+          <include name="InCrementButtonVisiblity"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.qa.greenkart.test.TestHomePage -->
