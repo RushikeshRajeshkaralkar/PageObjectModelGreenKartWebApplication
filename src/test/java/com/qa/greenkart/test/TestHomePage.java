@@ -103,7 +103,7 @@ public class TestHomePage extends TestBase {
 			if ((names).equalsIgnoreCase(UpdateFormateName)) {
 
 				j++;
-				driver.findElements(By.xpath("//div[@class='product-action']//button")).get(i).click();
+				driver.findElement(By.xpath("//h4[contains(text(),'" +UpdateFormateName+ "')]//..//div[@class='product-action']//button[contains(text(),'ADD TO CART')]"));
 				try {
 					Thread.sleep(2000);
 					break;
